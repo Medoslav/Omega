@@ -1,0 +1,11 @@
+Napsáno v Praze 20.04.23 Matějem Bartůšekem studentem SPŠE Ječná
+Jedná se o školní projekt.
+Netestováno na zvířatech, testováno na Dejvovi.
+
+Spuštení programu:
+	Musíte mít Pyrhon 3.0
+	Klikněte na CLIENT\main.py
+	
+Konfigurace programu:
+	V samotném programu
+	CLIENT\config_connection.py

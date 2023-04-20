@@ -1,0 +1,34 @@
+Napsáno v Praze 20.04.23 Matějem Bartůšekem studentem SPŠE Ječná
+Jedná se o školní projekt.
+Netestováno na zvířatech, testováno na Dejvovi.
+
+Jak spustit program:
+	1) Budete potřebovat nástroj PuTTY, pokud pokud PuTTY nemáte tak je k dostání na tomto odkazu:
+	   https://www.putty.org/
+	2) Nainstalujte putty pokud jí nemáte.
+	3) Otevřete příkazový řádek zadáním písmenek CMD do okénka hledat v levém dolním roho vaší obrazovky.
+	4) Do příkazového řádku napiste: python
+	5) Mělo by vás to odkázat na místo kde python do svého pc stáhnete.
+	6) Stáhňete python.
+	7) Do příkazového řádku napište: cd "cesta do složky s programem" 
+	8) Do příkazového řádku napište: python main.py
+	9) Pokud se nevypíše žádný error tak je to spřávně.
+
+Jak spustit DB:
+	1)Databáze je napsáná v Mysql takže ho musíte mít stažený v PC
+	2)V MySql otevřete DB\script.sql
+	3)Celej script spusťe
+
+Příkazy:
+	1)POKAZDÉ KDYŽ SE PŘIPOJÍTE PREZ PUTTY TAK PRVNÍ NAPIŠTE admin JINAK NEBUDE PROGRAM FUNGOVAT 
+	2)CRUD příkazy napíšete buď C,R,U,D podle toho jakou operaci chcete provést a za to název tabulky
+	  např. Cclanek --> je příkaz pro Create článek. Informace o všech tabulkách najdete v DB\diagramy
+	3)Ipconf --> Nastavení ip addresy a portu
+	4)Banusername/Banemail/Banslovo --> zabanujete buď uživatele podle jména nebo emailu nebo slovo
+	5)Unbanusername/Unabanslovo odbanujete buď uživatele nebo slovo
+	6)Blacklist/Slovolist --> Vypíše všechna zabanovaná slova nebo uživatele
+
+	POUŽÍVÁNÍ ADMIN PŘÍKAZŮ HLAVNĚ TĚCH CRUD JE NA VLASTNÍ RIZIKO!!!
+
+Konfigurace:
+	Program lze konfigurovat v souborech SERVER\config_DB.conf a SERVER\config_server.conf
